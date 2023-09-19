@@ -7,3 +7,24 @@ html{
   margin: 0;
   padding: 0;
 }
+
+:root{
+  --color-primary: #603809;
+  --color-black: #000;
+}
+
+
+/* Utiliza la fuente 'Clicker Script' y 'Playfair Display' en diferentes elementos o reglas CSS */
+/* Para el texto en el párrafo */
+p,a {
+  font-family: 'Clicker Script', cursive;
+}
+
+/* Para los encabezados */
+h1, h2, h3, h4, h5{
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: var(--color-primary);
+  font-weight: bold;
+  -webkit-text-stroke: 1px var(--color-black);
+}
