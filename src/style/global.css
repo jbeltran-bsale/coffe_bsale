@@ -11,13 +11,19 @@ html{
 :root{
   --color-primary: #603809;
   --color-black: #000;
+  --color-secundary: #F9C06A;
+  --color-white: #fff;
 }
 
 
 /* Utiliza la fuente 'Clicker Script' y 'Playfair Display' en diferentes elementos o reglas CSS */
 /* Para el texto en el párrafo */
-p,a {
+p{
   font-family: 'Clicker Script', cursive;
+}
+a{
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
 }
 
 /* Para los encabezados */
@@ -27,4 +33,13 @@ h1, h2, h3, h4, h5{
   color: var(--color-primary);
   font-weight: bold;
   -webkit-text-stroke: 1px var(--color-black);
+}
+
+
+.button{
+  background-color: var(--color-secundary);
+  padding: 0.7rem 1.5rem;
+  border-radius: 15px 15px 15px 15px;
+  font-weight: bold;
+
 }
